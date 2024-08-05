@@ -14,6 +14,7 @@
 
 > - [ Overview](#-overview)
 > - [ Features](#-features)
+> - [Technologies Used](#-Technologies-Used)
 > - [ Repository Structure](#-repository-structure)
 > - [ Modules](#-modules)
 > - [ Getting Started](#-getting-started)
@@ -25,13 +26,23 @@
 
 ##  Overview
 
-HTTP error 401 for prompt `overview`
+This project provides an interactive web application to analyze Olympic Games data, focusing on various aspects such as medal tally, overall analysis, country-wise analysis, and athlete-wise analysis. The application is built using Streamlit for the web interface, and leverages Pandas, Plotly, and Seaborn for data processing and visualization.
 
 ---
 
 ##  Features
 
-HTTP error 401 for prompt `features`
+1. Medal Tally: Analyze the medal counts by year and country, with options for viewing overall performance or performance in specific years.
+2. Overall Analysis: Examine trends over time for participating nations, events, athletes, and more. Includes visualizations such as line plots and heatmaps.
+3. Country-Wise Analysis: Explore detailed medal tallies for specific countries, with visualizations for medal trends over the years and heatmaps of event participation.
+4. Athlete-Wise Analysis: Investigate age distributions of athletes by medal type and sport, including distribution plots for different sports.
+
+##  Technologies Used
+1. Streamlit: Framework for building the interactive web interface.
+2. Pandas: For data manipulation and preprocessing.
+3. Plotly: For interactive visualizations.
+4. Seaborn: For statistical data visualization.
+5. Matplotlib: For static plots, used in heatmap generation.
 
 ---
 
